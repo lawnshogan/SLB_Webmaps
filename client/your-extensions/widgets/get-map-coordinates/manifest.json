@@ -1,10 +1,10 @@
 {
   "name": "get-map-coordinates",
-  "label": "Simple",
+  "label": "Map Coordinates Cursor",
   "type": "widget",
   "version": "1.11.0",
   "exbVersion": "1.11.0",
-  "author": "Esri R&D Center Beijing",
+  "author": "Shawn Logan",
   "description": "Lat/Long for Cursor",
   "copyright": "",
   "license": "http://www.apache.org/licenses/LICENSE-2.0",

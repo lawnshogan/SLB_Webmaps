@@ -159,21 +159,8 @@
       "label": "Controller layout"
     },
     "layout_3": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_9",
-          "bbox": {
-            "left": 0,
-            "top": 0,
-            "bottom": 0,
-            "right": 0
-          }
-        }
-      },
-      "order": [
-        "0"
-      ],
+      "content": {},
+      "order": [],
       "label": "Open widget layout"
     },
     "layout_4": {
@@ -513,6 +500,10 @@
     },
     "layout_22": {
       "type": "FIXED",
+      "order": [
+        "0",
+        "1"
+      ],
       "content": {
         "0": {
           "type": "WIDGET",
@@ -525,10 +516,6 @@
           "widgetId": "widget_9"
         }
       },
-      "order": [
-        "0",
-        "1"
-      ],
       "label": "Controller layout"
     },
     "layout_23": {
@@ -795,6 +782,10 @@
     },
     "layout_29": {
       "type": "FIXED",
+      "order": [
+        "0",
+        "1"
+      ],
       "content": {
         "0": {
           "type": "WIDGET",
@@ -807,10 +798,6 @@
           "widgetId": "widget_9"
         }
       },
-      "order": [
-        "0",
-        "1"
-      ],
       "label": "Controller layout"
     },
     "layout_30": {
@@ -1048,7 +1035,7 @@
       "id": "widget_3",
       "uri": "widgets/common/text/",
       "config": {
-        "text": "<p></p>",
+        "text": "<p><strong style=\"color: var(--light); font-size: 20px; font-family: &quot;Microsoft YaHei&quot;;\">SLB Disposal Properties</strong></p>",
         "placeholder": "<p><span style=\"font-size: 24px; color: rgb(255, 255, 255);\">Title</span></p>",
         "style": {
           "verticalAlign": "center",
@@ -1692,7 +1679,7 @@
       "home": []
     }
   ],
-  "timestamp": 1688586941267,
+  "timestamp": 1690220950031,
   "header": {
     "layout": {
       "LARGE": "layout_15"
