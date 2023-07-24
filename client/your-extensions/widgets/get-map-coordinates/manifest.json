@@ -1,0 +1,22 @@
+{
+  "name": "get-map-coordinates",
+  "label": "Simple",
+  "type": "widget",
+  "version": "1.11.0",
+  "exbVersion": "1.11.0",
+  "author": "Esri R&D Center Beijing",
+  "description": "Lat/Long for Cursor",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {},
+  "translatedLocales": [
+    "en"
+  ],
+  "dependency": [
+    "jimu-arcgis"
+  ],
+  "defaultSize": {
+    "width": 800,
+    "height": 500
+  }
+}
