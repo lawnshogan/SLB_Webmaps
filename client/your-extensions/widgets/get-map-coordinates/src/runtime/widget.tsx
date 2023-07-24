@@ -1,13 +1,26 @@
-import { React, AllWidgetProps } from 'jimu-core'
-import { IMConfig } from '../config'
+/*** @jsx */
+import { React, AllWidgetProps, BaseWidget, jsx, FormattedMessage } 
+from 'jimu-core';
+import { IMConfig } from '../config';
+import defaultMessages from "./translations/default";
 
-const Widget = (props: AllWidgetProps<IMConfig>) => {
+export default class Widget extends
+BaseWidget<AllWidgetProps<IMConfig>, any> {
+  constructor(props) {
+    super(props);
+
+    this.state={};
+  }
+
+render() {
   return (
     <div className="widget-demo jimu-widget m-2">
-      <p>Simple Widget</p>
-      <p>exampleConfigProperty: {props.config.exampleConfigProperty}</p>
+      <p>
+        <FormattedMessage 
+        id="latitudeLongitude"
+        defaultMessage={defaultMessages.latitudeLongitude}/>
+</p>
     </div>
-  )
+  );
+  }
 }
-
-export default Widget

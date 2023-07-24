@@ -118,10 +118,10 @@
         "3": {
           "type": "WIDGET",
           "bbox": {
-            "left": "1040px",
+            "left": "945px",
             "top": "0px",
-            "width": "200.00px",
-            "height": "60px",
+            "width": "333px",
+            "height": "64px",
             "right": "0px",
             "bottom": "0px"
           },
@@ -142,7 +142,8 @@
       "type": "FIXED",
       "order": [
         "0",
-        "1"
+        "1",
+        "2"
       ],
       "content": {
         "0": {
@@ -154,13 +155,38 @@
           "type": "WIDGET",
           "bbox": {},
           "widgetId": "widget_9"
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "NaNpx",
+            "right": "NaNpx",
+            "top": "NaNpx",
+            "bottom": "NaNpx",
+            "width": "800px",
+            "height": "500px"
+          },
+          "widgetId": "widget_25"
         }
       },
       "label": "Controller layout"
     },
     "layout_3": {
-      "content": {},
-      "order": [],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_25",
+          "bbox": {
+            "left": 0,
+            "top": 0,
+            "bottom": 0,
+            "right": 0
+          }
+        }
+      },
+      "order": [
+        "0"
+      ],
       "label": "Open widget layout"
     },
     "layout_4": {
@@ -502,7 +528,8 @@
       "type": "FIXED",
       "order": [
         "0",
-        "1"
+        "1",
+        "2"
       ],
       "content": {
         "0": {
@@ -514,6 +541,18 @@
           "type": "WIDGET",
           "bbox": {},
           "widgetId": "widget_9"
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "NaNpx",
+            "right": "NaNpx",
+            "top": "NaNpx",
+            "bottom": "NaNpx",
+            "width": "800px",
+            "height": "500px"
+          },
+          "widgetId": "widget_25"
         }
       },
       "label": "Controller layout"
@@ -784,7 +823,8 @@
       "type": "FIXED",
       "order": [
         "0",
-        "1"
+        "1",
+        "2"
       ],
       "content": {
         "0": {
@@ -796,6 +836,18 @@
           "type": "WIDGET",
           "bbox": {},
           "widgetId": "widget_9"
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "NaNpx",
+            "right": "NaNpx",
+            "top": "NaNpx",
+            "bottom": "NaNpx",
+            "width": "800px",
+            "height": "500px"
+          },
+          "widgetId": "widget_25"
         }
       },
       "label": "Controller layout"
@@ -1609,6 +1661,15 @@
       },
       "id": "widget_24",
       "label": "Search 3"
+    },
+    "widget_25": {
+      "uri": "widgets/get-map-coordinates/",
+      "version": "1.11.0",
+      "label": "Map Coordinates Cursor",
+      "config": {
+        "exampleConfigProperty": "test"
+      },
+      "id": "widget_25"
     }
   },
   "exbVersion": "1.11.0",
@@ -1679,7 +1740,7 @@
       "home": []
     }
   ],
-  "timestamp": 1690220950031,
+  "timestamp": 1690227842872,
   "header": {
     "layout": {
       "LARGE": "layout_15"
